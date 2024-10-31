@@ -1,0 +1,205 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DDC57C;
+    align-items: center;
+
+    margin: 0;
+    padding: 0 15%;
+}
+
+header {
+    height: 45%;
+    padding: 20px;
+    text-align: left;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.nav {
+    display: flex;
+
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 12px; 
+
+    background-color: #EAE1C6;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav ul li a {
+    color: #012A36;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/*餐廳圖片*/
+
+.restaurant_image {
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    border-radius: 12px;
+
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.restaurant_image img{
+    width: 100%;
+}
+
+.restaurant_image h1 {
+    position: absolute;
+    top: 85%; 
+    left: 2%; 
+    transform: translate(0, -50%);
+    font-size: 2rem;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+
+    color: #012A36;
+    background-color: #EAE1C6;
+    border-radius: 12px;    
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.restaurant_info{
+    width: 100%;
+    padding: 15px 0px;
+
+    background-color: #EAE1C6;
+    border-radius: 12px;    
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.restaurant_info_text{
+    color: #012A36;
+    line-height: 0.5;
+    padding-left: 100px;
+}
+
+/*評論*/
+
+.content{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recommend_text{
+    height: 10px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 30px;
+
+    color: #012A36;
+}
+
+
+.items {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px 20px;
+}
+
+.item {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    display: flex; 
+    text-align: center;
+    width: 1100px;
+    margin: 30px; 
+    padding: 25px 50px; 
+    gap : 0px 5%;
+
+    background-color: #EAE1C6;
+    border-radius: 12px;    
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.info_img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+.info img {
+    width: 100%;
+    height: 100%;
+  }
+
+.info_text {
+    gap : 0px 20px;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 1;
+    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+
+  .info_text_h
+  {
+    display: flex;
+    align-items: flex-end;
+    gap : 0px 25px;
+
+    color: #012A36;
+  }
+
+.reviews{
+    display: flex; 
+    flex-direction: column;
+    gap : 20px;
+}
+
+.review{
+    padding: 20px 50px; 
+    width: 800px;
+
+    background-color: #EAE1C6;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.review h3{
+    color: #012A36;
+}
+
+footer{
+    margin-top:200px;
+    width: 100%;
+    background-color: #EAE1C6;
+    padding: 20px 0;
+    text-align: center;
+}
